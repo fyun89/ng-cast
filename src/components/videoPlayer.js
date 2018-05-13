@@ -9,6 +9,7 @@ angular.module('video-player')
     },
     templateUrl: 'src/templates/videoPlayer.html',
     bindings: {
-      currentVideo: '<'
+      currentVideo: '<',
+      onUpdate: '<'
     }
   });
